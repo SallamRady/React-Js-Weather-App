@@ -1,0 +1,75 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+.CardInfo {
+    width: 45%;
+    background-color: #fff;
+    padding: 30px 0px;
+    margin: 10px 0px;
+    color: #000;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.CardInfo .weatherIcon {
+    margin: 10px 0px;
+    font-size: 60px;
+}
+
+.CardInfo .Info {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    height: 120px;
+    margin:20px 0px;
+}
+
+.CardInfo .Info .Info-item{
+    width: 33.3333%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 25px;
+    background-color:#000;
+    color:#fff;
+}
+
+.CardInfo .Info .Info-item p{
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+.CardInfo .Info .Item3{
+    background-color: aqua;
+}
+.CardInfo .Info .Item3 p{
+    font-size:20px;
+    font-weight: 400;
+}
+
+.CardInfo .Info .Item3 small{
+    font-size: 18px;
+    font-weight:500;
+}
+
+.Info2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 63px;
+}
+
+.Info2 .Info-item2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+
+.Info2 .Info-item2 p i{
+    color: #61dafb;
+}
